@@ -1,0 +1,50 @@
+.container{
+	display: flex;
+	 justify-content: center;
+	 margin-top: 120px;
+}
+.tabs{
+	width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tabs_navs{
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+}
+.tabs_nav{
+	cursor: pointer;
+    margin-right: 16px;
+    padding-bottom: 16px;
+}
+.tabs_bar {
+    background-color:#82C831;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    position: absolute;
+    width: auto;
+    z-index: 190;
+}
+.tab_body{
+	overflow: hidden;
+    padding: 20px 0 20px 0px;
+    position: relative;
+    width: 600px;
+}
+.tab_slider{
+	width: 5000px;
+	display: flex;
+}
+.tab_inner{
+	display: flex;
+    width: 100%;
+}
+.tab{
+	width: 560px;
+	margin-right: 40px;
+}
